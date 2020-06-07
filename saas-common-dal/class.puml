@@ -1,0 +1,23 @@
+@startuml
+
+abstract class AbstractRoutingDataSource
+
+
+RoutingDataSource .up.> RoutingDataSourceHolder
+RoutingDataSource -up-|> AbstractRoutingDataSource
+RoutingDataSourceBuilder .up.> RoutingDataSource
+
+
+RoutingDataSourceBuilder ..> DruidDataSourceBuilder
+RoutingDataSourceBuilder ..> DataSourceMetaRepository
+
+
+RoutingDataSourceBuilder : build()
+DruidDataSourceBuilder : build()
+DataSourceMetaRepository : getDataSourceMetas()
+
+
+DataSourceMetaMonitor ..> DataSourceMetaRepository
+DataSourceMetaMonitor .left.> RoutingDataSourceBuilder
+
+@enduml

@@ -1,0 +1,2 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+c.b.s.common.fileupload.configuration.FileUploadConfiguration

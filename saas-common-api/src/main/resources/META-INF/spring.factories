@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+    c.p.b.api.config.ExceptionHandlerAutoConfiguration,\
+    c.p.b.api.config.ResponsePackagingAutoConfiguration
