@@ -1,0 +1,24 @@
+### Custom Settings
+!gradle/wrapper/gradle-wrapper.jar
+.gradle
+*.log
+log/
+*.DS_Store
+*.class
+.settings/
+classes
+
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+*.zip
+
+
+logs
+out
+override.props
+bin
+target
