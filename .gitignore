@@ -8,13 +8,19 @@ log/
 .settings/
 classes
 
+# maven ignore
+target/
+*.jar
+*.war
+*.zip
+*.tar
+*.tar.gz
 
 ### IntelliJ IDEA ###
 .idea
 *.iws
 *.iml
 *.ipr
-*.zip
 
 
 logs
