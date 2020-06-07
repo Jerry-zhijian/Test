@@ -7,14 +7,9 @@ log/
 *.class
 .settings/
 classes
-
-# maven ignore
-target/
-*.jar
-*.war
-*.zip
-*.tar
-*.tar.gz
+.project
+*/*.project
+*/*.classpath
 
 ### IntelliJ IDEA ###
 .idea
