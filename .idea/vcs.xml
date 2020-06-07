@@ -2,6 +2,25 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/billing-system" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ironox3rd" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/middle-end" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/operatingSystem" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/platform-front" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/saas-account" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/saas-app-asset" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/saas-common" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/saas-edge" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/saas-outsource" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/saas-platform" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/saas-quality-check" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/saas-search-es" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/saas-service-adapter" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/saas-tenant" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/saas-user-predict" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/task-center" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tool" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/wormhole-apigw" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/xxl-job" vcs="Git" />
   </component>
 </project>
